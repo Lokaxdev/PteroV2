@@ -61,8 +61,12 @@ check_token() {
   echo -e "                                                       "
   echo -e "${YELLOW}MASUKAN AKSES TOKEN :${NC}"
   read -r u
+  u=$(echo "$u" | xargs)  # Trim spaces from input
   token_encrypted="bG9rYXhkZXZnaXRodWJnaXRo"
   decoded_token=$(echo "$token_encrypted" | base64 --decode)
+
+  echo -e "DEBUG: Input Token: $u"
+  echo -e "DEBUG: Decoded Token: $decoded_token"
 
   if [ "$u" = "$decoded_token" ]; then
     echo -e "${GREEN}ACCESS SUCCESSFUL${NC}"
@@ -76,6 +80,7 @@ check_token() {
   fi
   clear
 }
+
 
 # Install theme
 install_theme() {
