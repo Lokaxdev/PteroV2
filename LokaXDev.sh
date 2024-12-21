@@ -60,9 +60,11 @@ check_token() {
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "                                                       "
   echo -e "${YELLOW}MASUKAN AKSES TOKEN :${NC}"
-  read -r USER_TOKEN
+  read -r u
+     token_encrypted="bG9rYXhkZXZnaXRodWJnaXRo"
+     decoded_token=$(echo "$token_encrypted" | base64 --decode)
 
-  if [ "$USER_TOKEN" = "lokaxdevgithub" ]; then
+  if [ "$u" = "$decoded_token" ]; then
     echo -e "${GREEN}ACCESS SUCCESSFULL${NC}}"
   else
     echo -e "${GREEN}ACCESS DENIED${NC}"
