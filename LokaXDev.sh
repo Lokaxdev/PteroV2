@@ -59,7 +59,7 @@ check_token() {
   echo -e "${BLUE}[+]               LICENSE LOKAXDEV                  [+]${NC}"
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "                                                       "
-  echo -e "${YELLOW}MASUKAN AKSES TOKEN :${NC}"
+  echo -e "${YELLOW}INSERT TOKEN :${NC}"
   read -r USER_TOKEN
 
   if [ "$USER_TOKEN" = "lokaxdevgithub" ]; then
