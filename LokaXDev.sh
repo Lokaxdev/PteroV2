@@ -17,8 +17,8 @@ display_welcome() {
   echo -e "${BLUE}[+]                                                 [+]${NC}"
   echo -e "${RED}[+] =============================================== [+]${NC}"
   echo -e ""
-  echo -e "script ini di buat untuk mempermudah penginstalasian thema pterodactyle,"
-  echo -e "dilarang keras untuk memperjual belikan."
+  echo -e "Suicide a mistake"
+  echo -e "It's so hard to stay attached to this world.."
   echo -e ""
   echo -e "𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗠 :"
   echo -e "@LokaXDev"
@@ -62,14 +62,14 @@ check_token() {
   echo -e "${YELLOW}MASUKAN AKSES TOKEN :${NC}"
   read -r USER_TOKEN
 
-  if [ "$USER_TOKEN" = "fadhostgagalmoveon" ]; then
-    echo -e "${GREEN}AKSES BERHASIL${NC}}"
+  if [ "$USER_TOKEN" = "lokaxdevgithub" ]; then
+    echo -e "${GREEN}ACCESS SUCCESSFULL${NC}}"
   else
-    echo -e "${GREEN}Buy dulu Gih Ke Fadhost${NC}"
-    echo -e "${YELLOW}TELEGRAM : @fadhost${NC}"
-    echo -e "${YELLOW}WHATSAPP : 6289530583676${NC}"
-    echo -e "${YELLOW}HARGA TOKEN : 10K FREE UPDATE JIKA ADA TOKEN BARU${NC}"
-    echo -e "${YELLOW}©FadhostOffc${NC}"
+    echo -e "${GREEN}ACCESS DENIED${NC}"
+    echo -e "${YELLOW}TELEGRAM : @LokaXDev${NC}"
+    echo -e "${YELLOW}Gmail : @LawlietXLoka@gmail.com${NC}"
+    echo -e "${YELLOW}HOW TO GET TOKEN : CHAT ME ON t.me/lokaXDev${NC}"
+    echo -e "${YELLOW}©LokaXDev${NC}"
     exit 1
   fi
   clear
@@ -83,7 +83,7 @@ install_theme() {
     echo -e "${BLUE}[+]                   SELECT THEME                  [+]${NC}"
     echo -e "${BLUE}[+] =============================================== [+]${NC}"
     echo -e "                                                       "
-    echo -e "PILIH THEME YANG INGIN DI INSTALL"
+    echo -e "Select theme"
     echo "1. stellar"
     echo "2. billing"
     echo "3. enigma"
