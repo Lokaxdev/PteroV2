@@ -82,6 +82,7 @@ check_token() {
 }
 
 
+
 # Install theme
 install_theme() {
   while true; do
