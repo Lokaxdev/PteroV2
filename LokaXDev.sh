@@ -56,20 +56,20 @@ install_jq() {
 check_token() {
   echo -e "                                                       "
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
-  echo -e "${BLUE}[+]               LICENSY FADHOST OFFC             [+]${NC}"
+  echo -e "${BLUE}[+]               LICENSE LOKAXDEV                  [+]${NC}"
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "                                                       "
   echo -e "${YELLOW}MASUKAN AKSES TOKEN :${NC}"
   read -r USER_TOKEN
 
-  if [ "$USER_TOKEN" = "fadhostgagalmoveon" ]; then
+  if [ "$USER_TOKEN" = "lokaxdevgithub" ]; then
     echo -e "${GREEN}AKSES BERHASIL${NC}}"
   else
-    echo -e "${GREEN}Buy dulu Gih Ke Fadhost${NC}"
-    echo -e "${YELLOW}TELEGRAM : @fadhost${NC}"
-    echo -e "${YELLOW}WHATSAPP : 6289530583676${NC}"
-    echo -e "${YELLOW}HARGA TOKEN : 10K FREE UPDATE JIKA ADA TOKEN BARU${NC}"
-    echo -e "${YELLOW}©FadhostOffc${NC}"
+    echo -e "${GREEN}This Project is under development${NC}"
+    echo -e "${YELLOW}TELEGRAM : @LokaXDev${NC}"
+    echo -e "${YELLOW}WHATSAPP : UNDEFINED (404 NOT FOUND)${NC}"
+    echo -e "${YELLOW}HOW TO GET TOKEN : Ask me on t.me/lokaxdev${NC}"
+    echo -e "${YELLOW}©LokaXDev${NC}"
     exit 1
   fi
   clear
