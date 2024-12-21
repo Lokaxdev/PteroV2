@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# LICENSE LOKAXDEV 2024 - 20XX
+# https://github.com/lokaxdev
+# This script is free, Don't you dare sell this script
+# GRAHHH
+
 # Color
 BLUE='\033[0;34m'       
 RED='\033[0;31m'
