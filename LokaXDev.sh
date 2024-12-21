@@ -61,13 +61,13 @@ check_token() {
   echo -e "                                                       "
   echo -e "${YELLOW}MASUKAN AKSES TOKEN :${NC}"
   read -r u
-     token_encrypted="bG9rYXhkZXZnaXRodWJnaXRo"
-     decoded_token=$(echo "$token_encrypted" | base64 --decode)
+  token_encrypted="bG9rYXhkZXZnaXRodWJnaXRo"
+  decoded_token=$(echo "$token_encrypted" | base64 --decode)
 
   if [ "$u" = "$decoded_token" ]; then
-    echo -e "${GREEN}ACCESS SUCCESSFULL${NC}}"
+    echo -e "${GREEN}ACCESS SUCCESSFUL${NC}"
   else
-    echo -e "${GREEN}ACCESS DENIED${NC}"
+    echo -e "${RED}ACCESS DENIED${NC}"
     echo -e "${YELLOW}TELEGRAM : @LokaXDev${NC}"
     echo -e "${YELLOW}Gmail : @LawlietXLoka@gmail.com${NC}"
     echo -e "${YELLOW}HOW TO GET TOKEN : CHAT ME ON t.me/lokaXDev${NC}"
