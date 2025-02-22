@@ -64,8 +64,7 @@ check_token() {
   read -r u
   u=$(echo "$u" | xargs)  # Trim spaces from input
 
-  # Correct base64 encoding for "lokaxdevgithub"
-  token_encrypted="bG9rYXhkZXZnaXRodWJnaXRo"
+  token_encrypted="bG9rYXhkZXZnaXRodWI="
   decoded_token=$(echo "$token_encrypted" | base64 --decode)
 
   if [ "$u" = "$decoded_token" ]; then
