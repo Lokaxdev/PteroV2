@@ -533,7 +533,7 @@ while true; do
   echo "6. Stellar Theme"
   echo "7. Hack Back Panel"
   echo "8. Change Password Vps"
-  echo "9. Auto Install Panel (MAY BE ERROR)"
+  echo "9. Auto Install Panel MAY BE ERROR"
   echo "x. Exit"
   echo -e "SELECT ONE 1/2/x:"
   read -r MENU_CHOICE
