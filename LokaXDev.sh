@@ -512,7 +512,7 @@ while true; do
   echo -e "${RED}  ,ggggg        gggggggg.                                 ${NC}"
   echo -e "${RED} ,ggg'               'ggg.                                ${NC}"
   echo -e "${RED}',gg       ,ggg.      'ggg:                               ${NC}"
-  echo -e "${RED}'ggg      ,gg'''  .    ggg       Auto Installer Fadhost   ${NC}"
+  echo -e "${RED}'ggg      ,gg'''  .    ggg       Auto Installer LokaXDev  ${NC}"
   echo -e "${RED}gggg      gg     ,     ggg      ------------------------  ${NC}"
   echo -e "${RED}ggg:     gg.     -   ,ggg      • Telegram : t.me/lokaxdev ${NC}"
   echo -e "${RED} ggg:     ggg._    _,ggg       • Credits  : LOKAXDEV      ${NC}"
